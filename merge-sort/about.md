@@ -59,3 +59,5 @@ end
 ```
 
 ### Merge sort running time
+Running time is 4m + 2
+6m (since m > 1)
