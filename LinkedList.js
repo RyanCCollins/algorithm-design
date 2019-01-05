@@ -1,3 +1,5 @@
+// LinkedList class in JS
+
 class LinkedList {
   constructor() {
     this.textIndex = this.testIndex.bind(this);
