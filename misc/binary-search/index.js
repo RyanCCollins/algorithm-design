@@ -1,4 +1,4 @@
-export const binarySearch = (list, value) => {
+const binarySearch = (list, value) => {
   let start = 0;
   let stop = list.length - 1;
   const getMiddle = () => Math.floor((start + stop) / 2);
@@ -15,7 +15,7 @@ export const binarySearch = (list, value) => {
   return list[middle] !== value ? -1 : middle;
 }
 
-export const binarySearchRecursive = (list, value, count = 0) => {
+const binarySearchRecursive = (list, value, count = 0) => {
   const middle = Math.floor(list.length / 2);
   if (value < list[middle]) {
     const newList = list.slice(0, middle);
@@ -30,3 +30,8 @@ export const binarySearchRecursive = (list, value, count = 0) => {
     return -1;
   }
 }
+
+const list = [1,2,3,4,9,10];
+const item = 10;
+const result = binarySearchRecursive(list, item);
+console.log(result);
