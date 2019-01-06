@@ -1,0 +1,15 @@
+from bst import BST, Node
+
+bst = BST()
+bst.add(3)
+bst.add(4)
+bst.add(6)
+bst.add(8)
+bst.add(1)
+bst.add(9)
+bst.add(2)
+bst.add(12)
+minimum = bst.findMin()
+maximum = bst.findMax()
+print(f'Min is: {minimum}')
+print(f'Max is: {maximum}')

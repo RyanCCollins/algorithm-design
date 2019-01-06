@@ -18,3 +18,8 @@ class Stack {
     return result;
   }
 };
+
+// const stack = new Stack();
+// stack.push(1);
+// stack.push(4);
+// stack.push('Hello world');
